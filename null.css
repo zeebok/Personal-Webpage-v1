@@ -1,0 +1,183 @@
+body {
+font-family: sans-serif;
+font-size: 100%;
+text-align: center;
+line-height: 1.25;
+margin: 0 auto;
+background-color: #FFFFFF;
+min-width: 850px;
+min-height: 600px;
+}
+
+p {
+margin-bottom: 10px;
+}
+
+#logo {
+float: left;
+text-decoration: none;
+margin-right:-150px;
+z-index: 1;
+}
+
+#nav {
+margin: 0 auto;
+height: 75px;
+background-color: #000000;
+color: #FFFFFF;
+text-align: center;
+list-style-type: none;
+border-bottom: solid 2px #EFB20F;
+min-width: 850px;
+z-index: -1;
+}
+
+#nav li {
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+width: 150px;
+height: 75px;
+}
+
+#nav li a {
+background-color: #000;
+padding-top: 55px;
+width: 150px;
+text-decoration: none;
+display: block;
+color: #FFF;
+}
+
+#nav li a:hover {
+background-color: #358FFF;
+}
+
+#container {
+margin: 0 auto;
+padding: 20px 10px;
+background-color: #FFFFFF;
+font-size: 0.8em;
+text-align: left;
+width: 800px;
+min-height: 600px;
+}
+
+#container h1 {
+margin-top: 15px;
+margin-bottom: 15px;
+font-weight: bold;
+font-size: 2em;
+width: 45%;
+border-bottom: 1px dotted;
+}
+
+#container h1:first-letter {
+color: orange;
+}
+
+#container h2 {
+margin-top: 10px;
+margin-bottom: 5px;
+padding-left: 25px;
+font-weight: bold;
+font-size: 1.5em;
+}
+
+#container h2:first-letter {
+color: #358FFF;
+}
+
+#container a {
+color: #16BB07;
+}
+
+#container a:hover {
+color: #2F4F4F;
+}
+
+.list {
+list-style-image: url('images/navborder.png');
+list-style-type: square;
+margin-bottom: 15px;
+}
+
+.prettytable { 
+	border-collapse: collapse;
+	margin: auto auto;
+}
+
+.prettytable a {
+	text-decoration: none;
+	color: #000;
+}
+
+.prettytable th, .prettytable td { 
+	padding: 0.5em;
+	border: 1px dotted #666;
+}
+
+.prettytable th[scope=col] {
+	border-bottom: 2px solid #333;
+	border-right: 2px solid #333;
+}
+
+.prettytable th+th[scope=col] {
+	border-right: 1px dotted #666;
+}
+
+.prettytable th[scope=row] {
+	border-right: 2px solid #333;
+}
+
+.gallery {
+	margin: 2px;
+	border: 1px dotted #666;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+}
+
+.gallery img {
+	display: inline;
+	margin: 3px;
+	border: 1px solid #16BB07;
+}
+
+.gallery a:hover img {
+	border: 1px solid #2F4F4F;
+}
+
+.desc {
+	text-align: center;
+	font-weight: normal;
+	width: 120px;
+	margin: 2px;
+}
+
+#footer {
+font-size: 0.625em;
+margin: 0 auto;
+height: 75px;
+background-color: #B5B5B5;
+text-align: center;
+min-width: 850px;
+clear: both;
+}
+
+#footer a {
+color: #000000;
+}
+
+#footer a:hover {
+color: #FFFFFF;
+}
+
+#footer img {
+float:right;
+margin-top: -75px;
+margin-left: -150px;
+height: 150px;
+}

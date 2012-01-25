@@ -1,0 +1,15 @@
+[14-May-2011 23:03:47] PHP Parse error:  syntax error, unexpected T_ECHO in /home/ryanzero/public_html/details.php on line 44
+[20-May-2011 19:53:18] PHP Parse error:  syntax error, unexpected ';' in /home/ryanzero/public_html/post.php on line 17
+[20-May-2011 19:53:50] PHP Parse error:  syntax error, unexpected ';' in /home/ryanzero/public_html/post.php on line 16
+[20-May-2011 19:54:28] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ryanzero'@'localhost' (using password: NO) in /home/ryanzero/public_html/post.php on line 15
+[20-May-2011 19:54:28] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/ryanzero/public_html/post.php on line 15
+[20-May-2011 19:54:28] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ryanzero'@'localhost' (using password: NO) in /home/ryanzero/public_html/post.php on line 17
+[20-May-2011 19:54:28] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/ryanzero/public_html/post.php on line 17
+[20-May-2011 20:45:33] PHP Parse error:  syntax error, unexpected '{' in /home/ryanzero/public_html/post.php on line 21
+[25-May-2011 15:25:12] PHP Fatal error:  Unsupported operand types in /home/ryanzero/public_html/post.php on line 20
+[30-May-2011 19:54:41] PHP Parse error:  syntax error, unexpected T_ECHO in /home/ryanzero/public_html/projects.php on line 13
+[30-May-2011 19:55:03] PHP Fatal error:  Call to undefined function  dbconnect() in /home/ryanzero/public_html/projects.php on line 16
+[30-May-2011 19:55:37] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/ryanzero/public_html/projects.php on line 21
+[30-May-2011 20:05:05] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/ryanzero/public_html/projects.php on line 21
+[30-May-2011 20:05:52] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/ryanzero/public_html/projects.php on line 21
+[30-May-2011 20:05:52] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/ryanzero/public_html/projects.php on line 30
